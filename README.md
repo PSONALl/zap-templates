@@ -181,9 +181,10 @@ Here you can find about commands to generate zap templates: [zap-templates gener
 ## Zap UI
 
 We can run ZAP with UI to configure endpoints and clusters. Steps for Adding a new endpoint/cluster through zap UI are:
-1. Run script: `./scipts/tools/zap/run_zaptool.sh`. This script will install all the dependencies required to run zap UI
+1. Run script: `./scipts/tools/zap/run_zaptool.sh`. 
+2. This script will install all the dependencies required to run zap UI
 And then starts configurator.
-2. If you have already installed all the dependencies, you can directly run script: `./scripts/tools/zap/configure.sh`. It will open Zigbee Clusters Configurator in a browser.
+
 3. For adding a new endpoint/cluster or modifying the existing one, select `+Add EndPoint`.
 4. Select Endpoint, profile ID, Device type, Network Id and Version of Endpoint you want to add or modify and create an endpoint.
 5. You will be displayed all existing Zigbee Clusters which you can add to this endpoint.
